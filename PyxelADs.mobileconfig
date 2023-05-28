@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+<key>ConsentText</key>
+<dict>
+<key>default</key>
+<string>Obrigado por baixar o Pyxel ADs! Conosco você pode aproveitar uma internet sem anúncios e sem virus.</string>
+</dict>
+<key>PayloadDescription</key>
+     <string>Aproveite a internet sem anúncios e sem virus. - Versão 1.0 - Antivirus e Bloqueador de Anúncios</string>
+    <key>PayloadDisplayName</key>
+    <string>Pyxel ADs</string>
+    <key>Pyxel ADs Shield Antivirus and Ad Blocker</key>
+    <string>Aproveite a internet sem anúncios e sem virus.</string>
+<key>PayloadIdentifier</key>
+ <string>Pyxel</string>
+ <key>PayloadOrganization</key>
+ <string>Pyxel</string>
+    <key>PayloadIdentifier</key>
+    <string>io.nextdns.a9ad37.profile</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.a9ad37</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://apple.dns.nextdns.io/a9ad37/ADs%20Shield</string>
+        </dict>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadIdentifier</key>
+        <string>io.nextdns.a9ad37.profile.dnsSettings.managed</string>
+        <key>PayloadUUID</key>
+        <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.a9ad37.dnsSettings.managed</string>
+        <key>PayloadDisplayName</key>
+        <string>Pyxel ADs</string>
+        <key>PayloadOrganization</key>
+        <string>Pyxel ADs</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+      </dict>
+    </array>
+  </dict>
+</plist>

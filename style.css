@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(90deg, rgba(255,229,0,1) 0%, rgba(105,255,0,1) 100%);
+    color: white;
+    font-family: Arial;
+}
+
+.logo {
+    width: 300px;
+    margin-top: -60px;
+}
+
+.logobox {
+    margin-bottom: -90px;
+}
+
+.center {
+    text-align: center;
+}
+
+.tag {
+    width: 40px;
+}
+
+.pyxellogo {
+    width: 250px;
+    margin-top: -60px;
+}
