@@ -8,6 +8,8 @@
     <string>Surfe uma internet melhor com o Pyxel AdSurf - pyxelworld.com</string>
     <key>PayloadIdentifier</key>
     <string>io.nextdns.a9ad37.profile</string>
+    <key>PayloadOrganization</key>
+    <string>Pyxel</string>
     <key>PayloadScope</key>
     <string>User</string>
     <key>PayloadType</key>
@@ -56,9 +58,9 @@
         <key>PayloadUUID</key>
         <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.a9ad37.dnsSettings.managed</string>
         <key>PayloadDisplayName</key>
-        <string>NextDNS (a9ad37)</string>
+        <string>AdSurf</string>
         <key>PayloadOrganization</key>
-        <string>NextDNS</string>
+        <string>Pyxel</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
       </dict>
