@@ -2,21 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-<key>ConsentText</key>
-<dict>
-<key>default</key>
-<string>Obrigado por baixar o Pyxel ADs! Conosco você pode aproveitar uma internet sem anúncios e sem virus.</string>
-</dict>
-<key>PayloadDescription</key>
-     <string>Aproveite a internet sem anúncios e sem virus. - Versão 1.0 - Antivirus e Bloqueador de Anúncios</string>
     <key>PayloadDisplayName</key>
-    <string>Pyxel ADs</string>
-    <key>Pyxel ADs Shield Antivirus and Ad Blocker</key>
-    <string>Aproveite a internet sem anúncios e sem virus.</string>
-<key>PayloadIdentifier</key>
- <string>Pyxel</string>
- <key>PayloadOrganization</key>
- <string>Pyxel</string>
+    <string>AdSurf</string>
+    <key>PayloadDescription</key>
+    <string>Surfe uma internet melhor com o Pyxel AdSurf - pyxelworld.com</string>
     <key>PayloadIdentifier</key>
     <string>io.nextdns.a9ad37.profile</string>
     <key>PayloadScope</key>
@@ -35,8 +24,31 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://apple.dns.nextdns.io/a9ad37/ADs%20Shield</string>
+          <string>https://apple.dns.nextdns.io/a9ad37/AdSurf%202</string>
         </dict>
+        <key>OnDemandRules</key>
+        <array>
+          <dict>
+            <key>Action</key>
+            <string>EvaluateConnection</string>
+            <key>ActionParameters</key>
+            <array>
+              <dict>
+                <key>DomainAction</key>
+                <string>NeverConnect</string>
+                <key>Domains</key>
+                <array>
+                  <string>dav.orange.fr</string>
+                  <string>msg.t-mobile.com</string>
+                </array>
+              </dict>
+            </array>
+          </dict>
+          <dict>
+            <key>Action</key>
+            <string>Connect</string>
+          </dict>
+        </array>
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
         <key>PayloadIdentifier</key>
@@ -44,11 +56,11 @@
         <key>PayloadUUID</key>
         <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.a9ad37.dnsSettings.managed</string>
         <key>PayloadDisplayName</key>
-        <string>Pyxel ADs</string>
+        <string>NextDNS (a9ad37)</string>
         <key>PayloadOrganization</key>
-        <string>Pyxel ADs</string>
+        <string>NextDNS</string>
         <key>PayloadVersion</key>
-        <integer>1</integer>
+        <integer>2</integer>
       </dict>
     </array>
   </dict>
