@@ -60,7 +60,7 @@
         <key>PayloadOrganization</key>
         <string>NextDNS</string>
         <key>PayloadVersion</key>
-        <integer>2</integer>
+        <integer>1</integer>
       </dict>
     </array>
   </dict>
